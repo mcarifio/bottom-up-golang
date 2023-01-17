@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
+
+func message() string {
+	return "hello, world"
+}
 
 func main() {
-	fmt.Println("hello, world") // traditional first program
+	fmt.Println(message()) // traditional first program
 }
